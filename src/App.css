@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+}
+
+.App {
+  display: inline-block;
+  position: relative;
+}
+
+.Marker {
+  position: absolute;
+  width: 23px;
+  height: 37px;
+  /* It seems to be reasonable to use transform to decouple coordinates from marker size,
+   * but when using transform it differs from mockup =)
+   * transform: translate(-50%, -50%);
+   */
+}
+
+.Details {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 200px;
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: left;
+}
